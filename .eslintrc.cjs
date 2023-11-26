@@ -7,5 +7,8 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  'rules': {
+    'indent': [2, 2], // 縮排統一為2格
   }
 }

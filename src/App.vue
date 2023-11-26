@@ -26,12 +26,19 @@ const contact = ref([
       <p class="text-3xl font-bold text-[#6576f4]">Xaviera's 個人介紹網站</p>
     </div>
 
-    <div class="wrapper flex items-center">
+    <div class="wrapper flex items-center relative">
       <nav class="px-2 py-1 text-lg">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/product">Product</RouterLink>
       </nav>
+      <!-- 選單 -->
+      <div v-show="false" id="home" class="w-fit absolute bottom-0 -translate-x-1/2">
+        <ul class="flex gap-2">
+          <li class="underline hover:font-bold w-[105px] text-center">home選項1</li>
+          <li class="underline hover:font-bold w-[105px] text-center">home選項2</li>
+        </ul>
+      </div>
     </div>
   </header>
 
