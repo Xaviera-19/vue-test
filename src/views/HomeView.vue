@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import { onBeforeMount, onMounted } from "vue";
+
 </script>
 
 <template>
   <main>
-    <!-- <TheWelcome /> -->
+    <div class="about font-bold ">
+    <h1>這是首頁OAO</h1>
+  </div>
   </main>
 </template>
